@@ -24,15 +24,12 @@ body {
     max-width: 320px;
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .container {
     width: 100%;
     max-width: 1200px;
-}
-
-h1 {
-    margin-bottom: 20px;
 }
 
 #heizmann-storefinder {
@@ -59,20 +56,14 @@ h1 {
 <body>
 
 <header class="header">
-    <div class="logo">
-        <!-- Logo -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1522 267" width="100%" height="auto">
-            <g transform="translate(0,267) scale(0.1,-0.1)" fill="#e85412">
-                <!-- gekürzt im Beispiel – dein komplettes SVG kann hier stehen -->
-                <path d="M4862 2660 c-102 -22 -193 -97 -240 -199 -21 -45 -26 -71 -27 -136 0 -71 4 -88 33 -147 38 -77 92 -130 171 -166 80 -37 192 -37 272 0 79 36 133 89 171 166 29 59 33 76 33 147 -1 93 -28 165 -90 234 -73 81 -212 124 -323 101z"/>
-            </g>
-        </svg>
-    </div>
+    <img 
+        src="https://www.heizmann.ch/skins/heiz/images/Firmenlogo.svg"
+        alt="Heizmann Logo"
+        class="logo"
+    >
 </header>
 
 <div class="container">
-    <h1>Heizmann Storefinder</h1>
-
     <!-- Heizmann Storefinder Widget -->
     <div id="heizmann-storefinder" data-hide-lang-switcher="true"></div>
 </div>
